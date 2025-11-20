@@ -1,0 +1,10 @@
+// push after any edit
+cd path/to/your/project  # ادخل على فولدر المشروع
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote remove origin  # لو عايز تمسح أي remote قديم — اختياري
+git remote add origin https://github.com/AbanoubSedki91/Cucumber_Validate_Excel.git
+git push -u origin main
